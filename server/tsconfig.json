@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2016",
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "dist",
+      "baseUrl": ".",
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "strict": true,
+      "noUnusedLocals": true,
+      "paths": {
+        "*": [
+          "node_modules/*",
+          "src/*",
+          "src/models/*"
+        ]   
+      }
+    },
+    "include": [
+      "src/**/*"
+    ]
+  }
